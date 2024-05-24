@@ -3,32 +3,73 @@
 .banner-section {
     display: flex;
     align-items: center;
-    padding: 50px 0;
+    justify-content: end;
+    padding-top: 50px;
     width: 100%;
     position: relative;
+
+    .banner-section-1 {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        position: absolute;
+        left: 0;
+        width: 55%;
+
+        .banner-sub-1{
+            font-size: 42px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            label {
+                font-weight: 900;
+            }
+
+            .stroke {
+                color: rgb(255, 255, 255);
+                -webkit-text-stroke: 2px $blackColor;
+                font-weight: 900;
+                font-size: larger;
+            }
+        }
+
+        .banner-sub-2 p{
+            font-size: 14px;
+            color: $zincColor;
+            line-height: 25px;
+        }
+    }
+
+    .banner-section-2 {
+        width: 60%;
+    }
+
 }
 
-.banner-section-1 {
-    width: 50%;
+.banner-section-3 {
     display: flex;
-    flex-direction: column;
-    gap: 30px;
+    gap: 35px;
+    position: absolute;
+    bottom: 13%;
 
+    .git, .med, .link, .face {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 66px;
+        height: 66px;
+        border: 3px solid $blackColor;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .git:hover , .med:hover, .link:hover, .face:hover{
+        border: 3px solid $blackColor;
+        background-color: $blackColor;
+        fill: rgb(255, 255, 255);
+    }
 }
 
-.banner-sub-1{
-    font-size: 42px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
 
-.banner-sub-1 label {
-    font-weight: 900;
-}
 
-.banner-sub-2 p{
-    font-size: 14px;
-    color: $zincColor;
-    line-height: 25px;
-}
