@@ -29,32 +29,32 @@
 }
 
 .nav-menu a {
-    text-decoration: none;
+    text-decoration: none;          
     line-height: 20px;
     font-size: 18px;
     font-weight: 700;
     color: $blackColor;
 }
 
-button {
-    background-color: $blackColor;
-    border: none;
-    width: 150px;
-    height: 50px;
-    font-size: 18px;
-    font-weight: 700;
-    color: $whiteColor;
-    border-radius: 4px;
-    cursor: pointer;
-}
+// button {
+//     background-color: $blackColor;
+//     border: none;
+//     width: 150px;
+//     height: 50px;
+//     font-size: 18px;
+//     font-weight: 700;
+//     color: $whiteColor;
+//     border-radius: 4px;
+//     cursor: pointer;
+// }
 
-button .resume {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
+// button .resume {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     gap: 10px;
+// }
 
-.resume p {
-    margin: 0;
-}
+// .resume p {
+//     margin: 0;
+// }

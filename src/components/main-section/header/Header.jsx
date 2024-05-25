@@ -2,6 +2,7 @@ import React from 'react'
 import '../../../styles/Header.scss'
 import download from '../../../assets/images/download.svg'
 import man from '../../../assets/images/bearded-man-icon.svg'
+import Download from '../../download/Download'
 
 
 function Header() {
@@ -17,13 +18,15 @@ function Header() {
             <a href="#">Projects</a>
             <a href="#">Contact Me</a>
         </div>
+
+        <Download/>
         
-        <button>
+        {/* <button>
             <div className='resume'>
                 <p>Resume</p>
                 <img src={download} alt="" />
             </div>
-        </button>
+        </button> */}
         
     </nav>
   )
