@@ -12,10 +12,12 @@ function MySkills() {
             {
                 skills.map(skill => {
                     return(
+                        <a href={skill.link} target='blank'>
                         <div className={skill.class} key={skill.id}>
                             <img src={skill.icon} alt="" />
                             <p>{skill.name}</p>
                         </div>
+                        </a>
                     )
                 })
             }

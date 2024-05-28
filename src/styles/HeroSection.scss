@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: end;
-    padding-top: 50px;
+    padding-top: 80px;
     width: 100%;
     position: relative;
 
@@ -42,7 +42,8 @@
     }
 
     .banner-section-2 {
-        width: 60%;
+        width: 900px;
+        height: 600px;
     }
 
 }
@@ -51,7 +52,7 @@
     display: flex;
     gap: 35px;
     position: absolute;
-    bottom: 13%;
+    bottom: 10%;
 
     .git, .med, .link, .face {
         display: flex;

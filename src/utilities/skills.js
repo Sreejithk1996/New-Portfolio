@@ -14,70 +14,80 @@ const skills = [
         id: 1,
         class: "tech",
         name: "HTML5",
-        icon: html
+        icon: html,
+        link: "https://www.w3schools.com/html/default.asp"
     },
 
     {
         id: 2,
         class: "tech",
         name: "CSS3",
-        icon: css
+        icon: css,
+        link: "https://www.w3schools.com/js/"
     },
 
     {
         id: 3,
         class: "tech",
         name: "JavaScript",
-        icon: js
+        icon: js,
+        link: "https://www.w3schools.com/js/"
     },
 
     {
         id: 4,
         class: "tech",
         name: "Bootstrap",
-        icon: boot
+        icon: boot,
+        link: "https://getbootstrap.com/"
     },
 
     {
         id: 5,
         class: "tech",
         name: "Git",
-        icon: git
+        icon: git,
+        link: "https://git-scm.com/"
     },
 
     {
         id: 6,
         class: "tech",
         name: "React JS",
-        icon: react
+        icon: react,
+        link: "https://react.dev/"
     },
 
     {
         id: 7,
         class: "tech",
         name: "GitHub",
-        icon: github
+        icon: github,
+        link: "https://github.com/"
     },
 
     {
         id: 8,
         class: "tech",
         name: "Sass",
-        icon: sass
+        icon: sass,
+        link: "https://sass-lang.com/"
     },
 
     {
         id: 9,
         class: "tech",
         name: "Tailwind ",
-        icon: tailwind
+        icon: tailwind,
+        link: "https://tailwindui.com/"
     },
 
     {
         id: 10,
         class: "tech",
         name: "Axios",
-        icon: axios
+        icon: axios,
+        link: "https://axios-http.com/"
     },
 
 ]

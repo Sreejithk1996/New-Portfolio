@@ -4,10 +4,11 @@
 }
 
 .portfolio {
-    max-width: 1850px;
+    max-width: 1700px;
     margin: auto;
     display: flex;
+    gap: 100px;
     flex-direction: column;
     justify-content: center;
-    margin: 20px 100px;
+    padding: 20px 100px;
 }
