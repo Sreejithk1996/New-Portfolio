@@ -88,7 +88,7 @@ const skills = [
         name: "Axios",
         icon: axios,
         link: "https://axios-http.com/"
-    },
+    }
 
 ]
 

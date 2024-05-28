@@ -5,6 +5,9 @@ import Github from './social/Github'
 import Linkedin from './social/Linkedin'
 import Medium from './social/Medium'
 import Facebook from './social/Facebook'
+import coffee from "../../../assets/images/bmc-full-logo.svg"
+import invertcoffee from "../../../assets/images/invert bmc.svg"
+
 
 
 function HeroSection() {
@@ -47,6 +50,16 @@ function HeroSection() {
         </div>
         </a>
     </div>
+    <div className='banner-section-4'>
+      <a href="https://buymeacoffee.com/sreejithk" target='blank'>
+        <button>
+              <img className='coffee' src={coffee} alt="" />
+              <img className='invertcoffee' src={invertcoffee} alt="" />
+        </button>
+      </a>
+
+    </div>
+
     </>
   )
 }

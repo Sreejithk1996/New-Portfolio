@@ -9,6 +9,7 @@ function MainSection() {
         <Header/>
         <HeroSection/>
     </div>
+
   )
 }
 
