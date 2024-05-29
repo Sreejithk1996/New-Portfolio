@@ -1,0 +1,168 @@
+@import "../variables//Variables.scss";
+
+.my-experience {
+    background-color: $blackColor;
+    padding: 40px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+
+    .title-1 {
+        font-size: 42px;
+        display: flex;
+        justify-content: center;
+        color: $whiteColor;
+    
+        label {
+            font-weight: 900;
+        }
+    }
+
+    .new-experience {
+        color: $whiteColor;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        .company {
+            border: 1px solid $zincColor;
+            padding: 20px;
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            &:hover {
+                background-color: $grey;
+                border: 1px solid $greyColor;
+            }
+            
+
+            .company-section-1 {
+                display: flex;
+                justify-content: space-between;
+    
+                .section-1-a {
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+    
+                    .comp-logo {
+                        width: 50px;
+                        height: 40px;
+    
+                        img {
+                            width: 50px;
+                            height: 40px;
+                        }
+                    }
+
+                    p {
+                        font-size: 24px;
+                        font-weight: 500;
+                    }
+                }
+
+                .secton-1-b {
+                    font-size: 14px;
+                    color: $lightGrey;
+                }
+            }
+
+            .company-section-2{
+                font-size: 16px;
+                line-height: 25px;
+                color: $lightGrey;
+                font-weight: 300;
+            }
+        }
+  
+    }
+
+    .career{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 20px;
+        border: 1px solid $whiteColor;
+        border-radius: 10px;
+        width: 470px;
+        height: 40px;
+        padding: 10px;
+
+        img {
+            width: 30px;
+            height: 30px;
+            filter: invert(1);
+        }
+
+        p {
+            font-size: 22px;
+            font-weight: 700;
+            color: $whiteColor;
+        }
+    }
+
+    .experience {
+        color: $whiteColor;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        .company {
+            border: 1px solid $zincColor;
+            padding: 20px;
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            &:hover {
+                background-color: $grey;
+                border: 1px solid $greyColor;
+            }
+            
+
+            .company-section-1 {
+                display: flex;
+                justify-content: space-between;
+    
+                .section-1-a {
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+    
+                    .comp-logo {
+                        width: 40px;
+                        height: 40px;
+    
+                        img {
+                            width: 40px;
+                            height: 40px;
+                        }
+                    }
+
+                    p {
+                        font-size: 24px;
+                        font-weight: 500;
+                    }
+                }
+
+                .secton-1-b {
+                    font-size: 14px;
+                    color: $lightGrey;
+                }
+            }
+
+            .company-section-2{
+                font-size: 16px;
+                line-height: 25px;
+                color: $lightGrey;
+                font-weight: 300;
+            }
+        }
+  
+    }
+}
+
