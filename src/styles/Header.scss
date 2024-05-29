@@ -4,57 +4,40 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+    
+        img {
+            width: 30px
+        }
+
+        p {
+            font-size: 24px;
+            font-weight: 900;
+            line-height: 26px;
+            margin: 0;
+        }
+    }
+
+    .nav-menu{
+        display: flex;
+        gap: 40px;
+
+        a {
+            text-decoration: none;          
+            line-height: 20px;
+            font-size: 18px;
+            font-weight: 700;
+            color: $blackColor;
+        }
+    }
+
+    a {
+        text-decoration: none;
+    }
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    cursor: pointer;
-}
-
-.logo img {
-    width: 30px
-}
-
-.logo p {
-    font-size: 24px;
-    font-weight: 900;
-    line-height: 26px;
-    margin: 0;
-}
-.nav-menu{
-    display: flex;
-    gap: 40px
-}
-
-.nav-menu a {
-    text-decoration: none;          
-    line-height: 20px;
-    font-size: 18px;
-    font-weight: 700;
-    color: $blackColor;
-}
-
-// button {
-//     background-color: $blackColor;
-//     border: none;
-//     width: 150px;
-//     height: 50px;
-//     font-size: 18px;
-//     font-weight: 700;
-//     color: $whiteColor;
-//     border-radius: 4px;
-//     cursor: pointer;
-// }
-
-// button .resume {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     gap: 10px;
-// }
-
-// .resume p {
-//     margin: 0;
-// }

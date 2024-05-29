@@ -54,7 +54,7 @@
     position: absolute;
     bottom: 10%;
 
-    .git, .med, .link, .face {
+    .git, .med, .link, .face, .email {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -65,7 +65,7 @@
         cursor: pointer;
     }
 
-    .git:hover , .med:hover, .link:hover, .face:hover{
+    .git:hover , .med:hover, .link:hover, .face:hover, .email:hover{
         border: 3px solid $blackColor;
         background-color: $blackColor;
         fill: rgb(255, 255, 255);

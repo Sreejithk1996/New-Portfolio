@@ -7,6 +7,7 @@ import Medium from './social/Medium'
 import Facebook from './social/Facebook'
 import coffee from "../../../assets/images/bmc-full-logo.svg"
 import invertcoffee from "../../../assets/images/invert bmc.svg"
+import Email from './social/Email'
 
 
 
@@ -47,6 +48,11 @@ function HeroSection() {
         <a href="https://www.facebook.com/sreejith.kumar.1042/">
         <div className='face'>
           <Facebook fill='#00000'/>
+        </div>
+        </a>
+        <a href="mailto:sreekumar1996@gmail.com" target='blank'>
+        <div className='email'>
+          <Email fill='#00000'/>
         </div>
         </a>
     </div>
