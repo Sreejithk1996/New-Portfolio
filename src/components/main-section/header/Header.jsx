@@ -13,10 +13,12 @@ function Header() {
             <p>Sreejith K</p>
         </div>
         <div className='nav-menu'>
-            <a href="#">About Me</a>
-            <a href="#">Skills</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact Me</a>
+          <ul>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact Me</a></li>
+          </ul>
         </div>
         <a href={resume} download="Resume"><Download/></a> 
     </nav>
