@@ -4,6 +4,7 @@ import MainSection from './components/main-section/MainSection';
 import MySkills from './components/my-skills/MySkills';
 import MyExperience from './components/my-experience/MyExperience';
 import AboutMe from './components/about-me/AboutMe';
+import MyProjects from './components/my-projects/MyProjects';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <MySkills/>
     <MyExperience/>
     <AboutMe/>
+    <MyProjects/>
     </div>
   )
 }
