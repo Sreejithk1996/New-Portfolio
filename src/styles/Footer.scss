@@ -1,0 +1,21 @@
+@import "../variables/Variables.scss";
+
+.footer-section {
+    font-size: 20px;
+    background-color: $blackColor;
+    height: 70px;
+    color: $whiteColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .footer-content {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        img {
+            width: 22px;
+        }
+    }
+}

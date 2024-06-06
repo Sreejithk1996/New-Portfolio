@@ -6,6 +6,7 @@ import MyExperience from './components/my-experience/MyExperience';
 import AboutMe from './components/about-me/AboutMe';
 import MyProjects from './components/my-projects/MyProjects';
 import ContactForm from './components/contact-form/ContactForm';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
     <AboutMe/>
     <MyProjects/>
     <ContactForm/>
+    <Footer/>
     </div>
   )
 }
