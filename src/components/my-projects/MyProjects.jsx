@@ -63,8 +63,7 @@ function MyProjects() {
           <div
             className={list.class}
             style={{ flexDirection: list.id % 2 === 0 ? "row-reverse" : "row" }}
-            key={list.id}
-          >
+            key={list.id}>
             <div
               className="project-section-1"
               onMouseOver={() => handleMouseOver(list.id)}
@@ -75,15 +74,14 @@ function MyProjects() {
                     ? `perspective(800px) rotateY(${list.id % 2 === 0 ? '-30deg' : '30deg'})`
                     : 'none',
                 transition: 'transform 0.3s ease-in-out',
-              }}
-            >
+              }}>
               <img src={list.img} alt="" />
             </div>
             <div className="project-section-2">
               <p className="project-id">{list.num}</p>
               <p className="project-title">{list.title}</p>
               <p className="project-details">{list.details}</p>
-              <a href={list.path} target="_blank" rel="noopener noreferrer">
+              <a href={list.path} target="_blank" >
                 <img src={open} alt="" />
               </a>
             </div>

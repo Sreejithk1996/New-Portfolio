@@ -32,27 +32,27 @@ function HeroSection() {
     <div className='banner-section-3'>
         <a href="https://github.com/Sreejithk1996" target='blank'>
         <div className='git'>
-          <Github fill='#00000'/>
+          <Github fill='#00000' width='35px' height = '35px'/>
         </div>
         </a>
         <a href="https://www.linkedin.com/in/sreejith-k-a73362187/">
         <div className='link'>
-            <Linkedin fill='#00000'/>
+            <Linkedin fill='#00000' width='35px' height = '35px'/>
         </div>
         </a>
         <a href="https://medium.com/@SreejithK96">
         <div className='med'>
-          <Medium fill='#00000'/>
+          <Medium fill='#00000' width='35px' height = '35px'/>
         </div>
         </a>
         <a href="https://www.facebook.com/sreejith.kumar.1042/">
         <div className='face'>
-          <Facebook fill='#00000'/>
+          <Facebook fill='#00000' width='35px' height = '35px'/>
         </div>
         </a>
         <a href="mailto:sreekumar1996@gmail.com" target='blank'>
         <div className='email'>
-          <Email fill='#00000'/>
+          <Email fill='#00000' width='35px' height = '35px'/>
         </div>
         </a>
     </div>

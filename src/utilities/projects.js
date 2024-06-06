@@ -1,6 +1,7 @@
 
 import mtl from "../assets/images/mtlproject.png"
 import boat from "../assets/images/boat-race.png"
+import service from "../assets/images/service-website.png"
 
 const projects = [
     {
@@ -21,7 +22,21 @@ const projects = [
         details: "Designed and developed a landing page for the Rotary Club of Cochin South. This project utilized HTML, CSS, and Bootstrap to create a user-friendly and informative platform. The focus was on responsiveness, ensuring the page functions flawlessly across devices.  The landing page clearly outlines the Rotary Club's mission, activities, and membership benefits, making it a valuable tool for attracting new members and promoting community engagement.", 
         img: boat,
         path: "https://github.com/Sreejithk1996/League-Boat-Race"
+    },
+
+    {
+        id: 3,
+        num: "03",
+        class: "project",
+        title: "Service Website",
+        details: "Designed and developed a landing page for the Rotary Club of Cochin South. This project utilized HTML, CSS, and Bootstrap to create a user-friendly and informative platform. The focus was on responsiveness, ensuring the page functions flawlessly across devices.  The landing page clearly outlines the Rotary Club's mission, activities, and membership benefits, making it a valuable tool for attracting new members and promoting community engagement.", 
+        img: service,
+        path: "https://github.com/Sreejithk1996/Service-website-with-react"
     }
 ]   
 
 export {projects}
+
+
+
+
