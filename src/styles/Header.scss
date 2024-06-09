@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    animation: nav-anim 1s ease-in;
 
     .logo {
         display: flex;
@@ -70,6 +71,17 @@
 
     a {
         text-decoration: none;
+    }
+}
+
+
+@keyframes nav-anim {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
     }
 }
 
