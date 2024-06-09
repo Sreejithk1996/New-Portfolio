@@ -8,6 +8,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
 
     .footer-content {
         display: flex;
@@ -27,5 +30,16 @@
         img {
             width: 22px;
         }
+    }
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0.5;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
     }
 }
