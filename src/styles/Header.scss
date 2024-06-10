@@ -1,4 +1,6 @@
+
 @import  "../variables/Variables.scss";
+
 
 .navbar {
     display: flex;
@@ -28,6 +30,11 @@
         display: flex;
         gap: 40px;
         height: 50px;
+        // position: fixed;
+        // left: 50%;
+        // top: 45px;
+        // transform: translate(-50%,-50%);
+        // z-index: 1000;
         
         ul {
             display: flex;

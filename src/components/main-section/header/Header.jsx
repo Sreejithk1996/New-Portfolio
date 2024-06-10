@@ -3,10 +3,17 @@ import '../../../styles/Header.scss'
 import man from '../../../assets/images/bearded-man-icon.svg'
 import Download from '../../download/Download'
 import resume from "../../../assets/docs/SreejithResume.pdf"
-import AboutMe from '../../about-me/AboutMe'
 
 
-function Header() {
+
+function Header({aboutRef,skillsRef,projectsRef,contactRef}) {
+
+  const scrollToSection = (elementRef) => {
+    window.scrollTo({
+      top: elementRef.current.offsetTop,
+      behavior: 'smooth',
+    })
+  }
   return (
     <nav className='navbar'>
         <div className='logo'>
@@ -15,15 +22,20 @@ function Header() {
         </div>
         <div className='nav-menu'>
           <ul>
-            <li><a href="#" >About Me</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact Me</a></li>
+            <li onClick={() => scrollToSection(aboutRef)} className='about'><a href="#" >About Me</a></li>
+            <li onClick={() => scrollToSection(skillsRef)} className='skills'><a href="#">Skills</a></li>
+            <li onClick={() => scrollToSection(projectsRef)} className='project'><a href="#">Projects</a></li>
+            <li onClick={() => scrollToSection(contactRef)} className='contact'><a href="#">Contact Me</a></li>
           </ul>
+          
         </div>
         <a href={resume} download="Resume"><Download/></a> 
     </nav>
+
+    
   )
 }
+
+
 
 export default Header
