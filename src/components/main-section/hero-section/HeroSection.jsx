@@ -18,8 +18,8 @@ function HeroSection() {
         <div className='banner-section-1'>
             <div className='banner-sub-1'>
                 <p>Hello I'am <label>Sreejith K</label></p> 
-                <p><label>Frontend</label> <label className='stroke'>Developer</label></p>
-                <p>Based In <label>Kerala.</label></p>
+                <p className='focus'><label>Frontend</label> <label className='stroke'>Developer</label></p>
+                <p >Based In <label>Kerala.</label></p>
             </div>
             <div className='banner-sub-2'>
                 <p>I'm Sreejith K, an engineer with a keen interest in software development and coding adventures.I'm in the early stages of my coding journey, focusing on Front-end Development. Excited to grow and contribute to the tech community</p>
