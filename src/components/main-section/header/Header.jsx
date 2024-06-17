@@ -2,7 +2,7 @@ import React from 'react'
 import '../../../styles/Header.scss'
 import man from '../../../assets/images/bearded-man-icon.svg'
 import Download from '../../download/Download'
-import resume from "../../../assets/docs/SreejithResume.pdf"
+import resume from "../../../assets/docs/SREEJITH's Resume.pdf"
 
 
 
