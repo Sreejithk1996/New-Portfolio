@@ -27,7 +27,6 @@ function Header({aboutRef,skillsRef,projectsRef,contactRef}) {
             <li onClick={() => scrollToSection(projectsRef)} className='project'><a href="#">Projects</a></li>
             <li onClick={() => scrollToSection(contactRef)} className='contact'><a href="#">Contact Me</a></li>
           </ul>
-          
         </div>
         <a href={resume} download="Resume"><Download/></a> 
     </nav>
