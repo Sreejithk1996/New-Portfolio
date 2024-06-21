@@ -29,7 +29,7 @@ const projects = [
         num: "03",
         class: "project",
         title: "Service Website",
-        details: "Designed and developed a fully resposive website for booking repair and maintenance services", 
+        details: "Designed and developed a fully resposive website for booking repair and maintenance services.", 
         img: service,
         path: "https://github.com/Sreejithk1996/Service-website-with-react"
     }
