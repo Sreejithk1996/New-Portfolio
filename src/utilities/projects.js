@@ -14,7 +14,7 @@ const projects = [
         path: "https://github.com/Sreejithk1996/Metric-Tree-Labs"
     },
 
-    {
+    {   
         id: 2,
         num: "02",
         class: "project",
