@@ -32,7 +32,7 @@ const MyProjects = forwardRef((props, ref) => {
               style={{
                 transform:
                   hoveredProjectId === list.id
-                    ? `perspective(800px) rotateY(${list.id % 2 === 0 ? '-30deg' : '30deg'})`
+                    ? `perspective(1200px) rotateY(${list.id % 2 === 0 ? '-30deg' : '30deg'})`
                     : 'none',
                 transition: 'transform 0.3s ease-in-out',
               }}>
